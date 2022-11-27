@@ -14,7 +14,7 @@ Patternul dintre ISTIA,cuvant ales de wordle, si ISTOR cuvant incercat este "CCC
 C - litera pe pozitie buna
 P - litera se afla in cuvant dar nu e pe pozitia buna
 G - litera nu se afla in cuvant
-```
+'''
 
 ### Executarea proiectului:
 Executarea proiectului se realizeaza prin rularea fisierului numit main.py prin intermediul comenzii
