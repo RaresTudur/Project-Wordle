@@ -9,18 +9,18 @@ Proiectul Wordle este facut integral in limbajul Python, versiunea 3.10.8
 
 ### Comunicarea:
 Comunicarea este realizata prin intermediul introducerii cuvantului incercat si a rezultatului afisat de wordle:
-'''
+```
 Patternul dintre ISTIA,cuvant ales de wordle, si ISTOR cuvant incercat este "CCCGG"
 C - litera pe pozitie buna
 P - litera se afla in cuvant dar nu e pe pozitia buna
 G - litera nu se afla in cuvant
-'''
+```
 
 ### Executarea proiectului:
 Executarea proiectului se realizeaza prin rularea fisierului numit main.py prin intermediul comenzii
-'''
+```
 - python main.py
-'''
+```
 
 ### :memo: Rezultate
 Medie incercari: **4.70**\
