@@ -26,11 +26,11 @@ Executarea proiectului se realizeaza prin rularea fisierului numit main.py prin 
 Medie incercari: **4.70**\
 Fisier cuvinte: [https://github.com/RaresTudur/Project-Wordle/blob/main/solutie.txt](https://github.com/RaresTudur/Project-Wordle/blob/main/solutie.txt)
 
-### Realizatori :
+### 👥Realizatori :
 - Tudur Rares, Grupa 142
 - Corneciu Darius, Grupa 142
 
-### Surse
+### 🗺️Surse
  - [3Blue1Brown - Solving Wordle using information theory](https://www.youtube.com/watch?v=v68zYyaEmEA&ab_channel=3Blue1Brown)
  - [Michael Schrandt - Solving Wordle with Python](https://www.youtube.com/watch?v=7Kfg5-JlA30&t=2247s&ab_channel=MichaelSchrandt)
 
