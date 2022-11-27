@@ -1,4 +1,4 @@
-# Wordle - Proiect Arhitectura Sistemelor de Calcul
+# Wordle - Proiect la Arhitectura Sistemelor de Calcul
 Proiectul Wordle este facut integral in limbajul Python, versiunea 3.10.8
 
 ### Librarii necesare:
