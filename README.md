@@ -8,6 +8,6 @@
 
 
 Realizatori :
->Tudor Rares,142
+>Tudur Rares,142
 
 >Corneciu Darius, 142
