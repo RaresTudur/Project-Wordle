@@ -1,7 +1,6 @@
 import string
 
 fisier_dictionar = open("cuvinte_wordle.txt",'r')
-fisier_solutie = open("solutie.txt",'w')
 #citirea dictionarului
 continut = fisier_dictionar.read()
 dictionar = continut.split()
@@ -130,12 +129,13 @@ def cuvantul_posibil(dictionar,frecventa):
     return cuvantulposibil
 
 
-def wordle_bot(dictionar):
+def wordle_bot():
     #botul recomanda din prima un cuvant ca sa minimalizeze numarul de incercari
+    global dictionar
     cuvant_recomandat= "tarei"
     print(f"Cuvantul cu care sa incepi este {cuvant_recomandat.upper()}")
     numar_incercari = 1
-    cuvant_incercat = input("Introdu solutia incercata\n")
+    cuvant_incercat = input("Introdu solutia incercata\n").lower()
     rezultat = input("Introdu rezultatul primit\n")
     while rezultat != "CCCCC":
         dictionar = selectare_cuvinte(rezultat,cuvant_incercat,dictionar)
@@ -145,9 +145,9 @@ def wordle_bot(dictionar):
         print(len(dictionar),"cuvinte ramase in dictionar",sep = " ")
         cuvant_recomandat = cuvantul_posibil(dictionar,frecventa_literelor(dictionar))
         print(f"Cuvantul recomandat este {cuvant_recomandat.upper()}")
-        cuvant_incercat = input("Introdu solutia incercata\n")
+        cuvant_incercat = input("Introdu solutia incercata\n").lower()
         rezultat = input("Introdu rezultatul primit\n")
         numar_incercari += 1
     if(rezultat == "CCCCC"):
         print(f"Am rezolvat wordle in {numar_incercari} incercari")
-wordle_bot(dictionar)
+wordle_bot()
