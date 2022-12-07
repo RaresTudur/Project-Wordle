@@ -1,9 +1,5 @@
 from os import system
-from bot import wordle_bot
-from game_console import wordle
 from termcolor import cprint
-
-alegere = -1
 
 def meniu():
 
@@ -12,14 +8,17 @@ def meniu():
     cprint("2.BOTUL DE WORDLE","white","on_red",attrs=["underline"])
     cprint("IESI DIN JOCUL DE WORDLE(orice tasta)","white","on_red",attrs=["underline"])
 
+meniu()
+alegere=int(input())
+
 while alegere!=0:
-    meniu()
-    alegere=int(input())
     if alegere == 1:
         system('cls')
+        from game_console import wordle
         wordle()
     elif alegere == 2:
         system('cls')
+        from bot import wordle_bot
         wordle_bot()
     else:
         system('cls')
